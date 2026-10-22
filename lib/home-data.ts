@@ -21,10 +21,30 @@ export type Product = {
 };
 
 export const CATEGORIES: Category[] = [
-  { slug: "electronics", name: "Electronics", itemCount: 128, tone: "from-violet-500/80 to-indigo-500/80" },
-  { slug: "fashion", name: "Fashion", itemCount: 342, tone: "from-pink-500/80 to-rose-500/80" },
-  { slug: "home-living", name: "Home & Living", itemCount: 96, tone: "from-amber-500/80 to-orange-500/80" },
-  { slug: "sports", name: "Sports", itemCount: 74, tone: "from-emerald-500/80 to-teal-500/80" },
+  {
+    slug: "electronics",
+    name: "Electronics",
+    itemCount: 128,
+    tone: "from-violet-500/80 to-indigo-500/80",
+  },
+  {
+    slug: "fashion",
+    name: "Fashion",
+    itemCount: 342,
+    tone: "from-pink-500/80 to-rose-500/80",
+  },
+  {
+    slug: "home-living",
+    name: "Home & Living",
+    itemCount: 96,
+    tone: "from-amber-500/80 to-orange-500/80",
+  },
+  {
+    slug: "sports",
+    name: "Sports",
+    itemCount: 74,
+    tone: "from-emerald-500/80 to-teal-500/80",
+  },
 ];
 
 export const FEATURED_PRODUCTS: Product[] = [
